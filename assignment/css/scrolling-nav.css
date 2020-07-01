@@ -1,0 +1,58 @@
+section {
+  padding: 150px 0;
+}
+
+h1 a {
+  color: #FFFFFF;
+}
+
+#txt{
+  text-align: center;
+}
+
+h3 a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:active {
+  color: #FFFFFF;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.zoomin img {
+      height: 300px;
+      -webkit-transition-property: height;
+      -webkit-transition-duration: .5s;
+      -webkit-transition-timing-function: linear;
+      -webkit-transition-delay: .5s;
+      -moz-transition-property: height;
+      -moz-transition-duration: .5s;
+      -moz-transition-timing-function: linear;
+      -moz-transition-delay: .5s;
+      -ms-transition-property: height;
+      -ms-transition-duration: .5s;
+      -ms-transition-timing-function: linear;
+      -ms-transition-delay: .5s;
+      transition-property: height;
+      transition-duration: .5s;
+      transition-timing-function: linear;
+      transition-delay: .5s;
+    }
+
+.zoomin img:hover {
+      height: 310px;
+    }
